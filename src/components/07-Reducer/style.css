@@ -1,0 +1,125 @@
+.container-todos{
+    padding: 2rem 0 6rem 0;
+    background-color: royalblue;
+    text-align: center;
+    border-bottom-left-radius: 40%;
+    border-bottom-right-radius: 40%;
+}
+
+
+.title{
+    font-size: 4rem;
+    color: #fff;
+    font-weight: bolder;
+}
+
+.todos-len{
+    font-size: 2rem;
+    font-weight: bolder;
+    color: #222;
+    background-color: greenyellow;
+    padding: .2rem 1rem;
+    border-radius: 50%;
+    margin: 1rem;
+    transition: all .2s ease-in-out;
+}
+
+.form-todos {
+    display: flex;
+    justify-content: center;
+    align-items: space-between;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.input-todo{
+    padding: .5rem;
+    border-radius: 15px;
+    outline: none;
+    border: none;
+    font-size: 1.2rem;
+    transition: all .2s ease-in-out;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+}
+
+.btn-todo{
+    padding: .5rem;
+    border-radius: 15px;
+    outline: none;
+    border: solid 2px #fff;
+    color: #fff;
+    background-color: royalblue;
+    transition: all .2s ease-in-out;
+    font-weight: bolder;
+}
+
+.btn-todo:hover {
+    color: royalblue;
+    background-color: #fff;
+    transform: scale(1.1);
+}
+
+.container-list {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.list-todos{
+    height: 4rem;
+    margin-top: -4rem;
+    border-radius: 1rem;
+    list-style: none;
+    padding: .5rem;
+    background-color: #fff;
+}
+
+.item-todo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.2rem;
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+    transition: all .2s ease-in-out;
+}
+
+.item-todo:hover{
+    cursor: pointer;
+    box-shadow: 0 0 10px 3px #ddd;
+}
+
+.id-todo {
+    background-color: #eee;
+    padding: 0 .5rem;
+    border-radius: 50%;
+}
+
+.desc-todo {
+    margin: 0;
+    text-transform: capitalize;
+}
+
+.btn-eliminar {
+    border: none;
+    background-color: #eb4034;
+    color: #fff;
+    border-radius: 5px;
+    transition: all .2s ease-in-out;
+    border: solid 2px #eb4034;
+}
+
+.btn-eliminar:hover {
+    color: #eb4034;
+    background-color: #fff;
+    transform: scale(1.1);
+    position: relative;
+}
+
+p{
+    transition: all .6s ease-in-out;
+}
+
+.complete {
+    text-decoration: line-through;
+}
